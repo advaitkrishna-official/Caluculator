@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+
+            <div class="buttons">
+                <button class= "clrBtn" onclick="clearButton()"> clear</button>
+
+                <div >
+                    <button class = "btn" onclick="clickButton(7)">7</button>
+                    <button class = "btn" onclick="clickButton(7)">8</button>
+                    <button class = "btn"onclick="clickButton(7)">9</button>
+                    <button class = "btn" onclick="clickButton('/')">/</button>
+                </div>
+                <div >
+                    <button class = "btn" onclick="clickButton(4)">4</button>
+                    <button class = "btn" onclick="clickButton(5)">5</button>
+                    <button class = "btn" onclick="clickButton(6)">6</button>
+                    <button class = "btn" onclick="clickButton('*')">x</button>
+                </div>
+                <div>
+                    <button class = "btn" onclick="clickButton(3)">3</button>
+                    <button class = "btn" onclick="clickButton(2)">2</button>
+                    <button class = "btn" onclick="clickButton(1)">1</button>
+                    <button class = "btn" onclick="clickButton('+')">+</button>
+                </div>
+                <div >
+                    <button class = "btn" onclick="clickButton('.')">.</button>
+                    <button class = "btn" onclick="clickButton(0)">0</button>
+                    <button class = "btn" onclick="clickButton('-')">-</button>
+                    <button class = "btn" onclick="equalButton()">=</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
